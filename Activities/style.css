@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(2, 198, 162);
+    margin: 0px;
+}
+
+#header {
+    background-color: #aa1100;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+#pageContent {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#mousePosition {
+    background-color: rgb(249, 250, 251);
+    font-family: "Asap Condensed";
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0.25px 0.25px 20px 0.25px rgb(161, 160, 160);
+}
+
+#ToDoList {
+    background-color: rgb(253, 253, 253);
+    font-family: "Asap Condensed";
+    height: 400px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0.25px 0.25px 20px 0.25px rgb(161, 160, 160);
+}

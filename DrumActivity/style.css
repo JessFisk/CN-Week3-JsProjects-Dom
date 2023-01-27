@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(122, 65, 139);
+    margin: 0px;
+}
+
+#buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.Button {
+    background-color: rgb(180, 145, 195);
+    font-family: sans-serif;
+    font-weight: 700;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0.25px 0.25px 25px 0.25px rgb(139, 139, 139);
+    transition: all 0.07s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: azure;
+    box-shadow: 0 0 10px azure;
+
+}
+
+#PurpleDrum {
+    margin-top: 100px;
+    max-width: 650px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Score 20</h1>
+    </header>
+    <div id="pageContent">
+        <div id=instructions>
+            <h2>Roll your dice to begin game</h2>
+
+            <h3>Score 20 to win, roll a 1 and lose!</h3>
+        </div>
+        <div id="scoreBox">
+            <div>score:</div>
+            <div id="scoreNumber">0</div>
+        </div>
+
+
+        <div id="diceBox">
+            <img id="diceOne" class="hidden" src="./one.png" alt="Dice one">
+            <img id="diceTwo" class="hidden" src="./two.png" alt="Dice Two">
+            <img id="diceThree" class="hidden" src="./three.png" alt="Dice Three">
+            <img id="diceFour" class="hidden" src="./four.png" alt="Dice Four">
+            <img id="diceFive" class="hidden" src="./five.png" alt="Dice Five">
+            <img id="diceSix" class="hidden" src="./six.png" alt="Dice Six">
+            <br>
+            <div id="losingSign" class="hidden">1 = You lose!</div>
+            <div id="winningSign" class="hidden">You Win!!</div>
+            <button id="rollBtn">Roll</button>
+            <button id="resetGame" class="hidden">Reset</button>
+        </div>
+
+
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
